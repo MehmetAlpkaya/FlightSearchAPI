@@ -13,7 +13,6 @@
 - Spring Boot 3.1.7
 - Open API Documentation
 - Spring Data JPA
-- H2 In Memory Database
 - postgresql
 - Restful API
 - Maven

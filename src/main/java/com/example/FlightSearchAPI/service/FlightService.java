@@ -38,7 +38,7 @@ public class FlightService {
 
             List<Flight> arrivalFlights = flightRepository.findByDepartureAirportIdAndArrivalAirportIdAndDepartureDateTime(arrivalAirportId, departureAirportId, returnDate);
             List<FlightResponse> mappedarrivalFlights = new ArrayList<>();
-            for (Flight flight : departureFlights) {
+            for (Flight flight : arrivalFlights) {
                 mappedarrivalFlights.add(convertToFlightResponse(flight));
             }
             searchApiResponse.setArrivalFlights(mappedarrivalFlights);
