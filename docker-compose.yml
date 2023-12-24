@@ -11,7 +11,7 @@ services:
     ports:
       - "9595-9597:8080"
     networks:
-      - open-weather-network
+      - flight-search-network
 
 networks:
   open-weather-network:
