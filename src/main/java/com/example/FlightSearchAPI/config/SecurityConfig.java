@@ -33,7 +33,7 @@ public class SecurityConfig
                 .roles("USER")
                 .build();
         UserDetails admin = User.builder()
-                .username("enesErgen")
+                .username("Mehmet")
                 .password(bCryptPasswordEncoder().encode("pass"))
                 .roles("ADMIN")
                 .build();
